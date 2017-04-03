@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	font-size: 80%;
+}
+body,h1,h2,h3,h4,h5,h6,td,th,div,p,input,textarea,pre,ul,ol,li,address{
+	color:#5A3E1C;
+	line-height:1em;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,div,p,ul,ol,li,dl,dt,dd,form,pre,input,textarea{
+	line-height:1.8em;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+form,pre,input,textarea{
+	line-height:1em;
+	margin:2px;
+	padding:2px;
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6,dt{
+}
+h4,h5,h6{
+}
+p{margin:6px 0 10px 0;}
+li{list-style:none;}
+dt{font-weight:bold;}
+p,li,dt,dd,th,td,address{line-height:1.6em;}
+address{font-style:normal;}
+table,img{border:0;}
+table td{ vertical-align:top; text-align:left;}
+table th{ vertical-align:middle; text-align:center;}
+table th, table td{
+	padding:0px;
+}
+img{ vertical-align:middle;}
+a:hover img.hoverImg{
+opacity:0.7;
+filter:alpha(opacity=70);
+-ms-filter: "alpha( opacity=70 )";
+}
+  
+fieldset{ margin:0; padding:0; border:0;}
+strong{ font-weight:bold;}
+.through{ text-decoration:line-through; color:#999;}
+
+#link_bg a:hover {
+	color:#fff;
+        text-decoration: none;
+        background: #FE4F90;
+        overflow: hidden;
+}
+
+a:link{
+	text-decoration:none;
+	color:#694536;
+}
+a:visited{
+	text-decoration:none;
+	color:#694536;
+}
+a:hover{
+	text-decoration:underline;
+	color:#FE4F90;
+}
+a:active{
+	text-decoration:underline;
+	color:#A9BCCF;
+}
+a:focus{
+	outline:none;
+	color:#A9BCCF;
+}
+.none{display:none;}
+.clear{clear:both;}
+
+/* clearfix
+------------------------------------------------------------ */
+.clearfix:after {
+	display:block; 
+	height:0; 
+	clear: both;
+	visibility: hidden;}
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix {height:1%;}
+.clearfix {display:block;}
+/* End hide from IE-mac */

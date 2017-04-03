@@ -1,236 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SASC.ONCEPT</title>
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery_003.js" type="text/javascript"></script>
+<script src="js/gotop.js" type="text/javascript"></script> 
+<script src="js/swapimage.js" type="text/javascript"></script>
+<script type="text/javascript">  
+        $(function() {  
+          $("#nav").droppy();  
+        });  
+</script>
+<script src="js/lightbox.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
 
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SASC.oncept</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Online Portfolio-UX/UI Design" />
-	<meta name="keywords" content="shirleyau, sasc, portfolio, ux, ui, design, graphic" />
-	<meta name="author" content="Shirley Au" />
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/favicon.ico">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2196019-1']);
+  _gaq.push(['_trackPageview']);
 
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+<body onload="MM_preloadImages('portfolio/prints/01/01_c_on.jpg','portfolio/prints/02/01_c_on.jpg','portfolio/prints/03/01_c_on.jpg','portfolio/prints/04/01_c_on.jpg','portfolio/prints/05/01_c_on.jpg','portfolio/prints/06/01_c_on.jpg','portfolio/prints/07/01_c_on.jpg','portfolio/prints/08/01_c_on.jpg','portfolio/prints/09/01_c_on.jpg','portfolio/prints/10/01_c_on.jpg','portfolio/prints/11/01_c_on.jpg','portfolio/prints/12/01_c_on.jpg','portfolio/prints/13/01_c_on.jpg','portfolio/prints/15/01_c_on.jpg','portfolio/prints/16/01_c_on.jpg','portfolio/prints/17/01_c_on.jpg','portfolio/prints/18/01_c_on.jpg','portfolio/prints/19/01_c_on.jpg','portfolio/prints/20/01_c_on.jpg','portfolio/prints/21/01_c_on.jpg','portfolio/prints/22/01_c_on.jpg','portfolio/prints/23/01_c_on.jpg')">
+<div id="wrap">
+<div id="main">
+<div id="globalNavi">
+  <ul id="nav">
+    <li id="logo"><a href="index.html"><img src="images/title.png" alt="home" width="360" height="82" /></a></li>
+      <li class="gn"><a href="index.html"><img src="images/btn_portfolio.png" alt="portfolio" name="portfolio" width="170" height="35" id="portfolio" onmouseover="MM_swapImage('portfolio','','images/btn_portfolio_on.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+      <ul>
+        <li><a href="index.html#web">Web</a></li>
+        <li><a href="index.html#apps">Apps</a></li>
+        <li><a href="index.html#prints">Prints</a> </li>
+        <li><a href="http://issuu.com/shirleyauchi/docs/sasoncept_portfolio_2006-08/" target="_blank">2006-2008</a></li>
+        <li><a href="index.html#self">Self-Project</a></li>
+    </ul></li>
+    <li class="gn"><a href="about.html"><img src="images/btn_about.png" alt="about" name="about" width="129" height="35" id="about" onmouseover="MM_swapImage('about','','images/btn_about_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+      <li class="gn"><a href="contact.html"><img src="images/btn_contact.png" alt="contact" name="contact" width="150" height="35" id="contact" onmouseover="MM_swapImage('contact','','images/btn_contact_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+  </ul>
+  </div>
+<div class="portfolio">
+  <p><a name="web"></a>  </p>
+<h1>Web</h1>
+<div class="workbox">
+ <a href="portfolio/web/01/01.jpg" rel="lightbox[roadtrip]" title="Hong Kong Science & Technology Park - Technical Support Website"><img src="portfolio/web/01/01_c.jpg" name="Web1" id="Web1" onmouseover="MM_swapImage('Web1','','portfolio/web/01/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <a href="portfolio/web/01/02.jpg" rel="lightbox[roadtrip]" title="Hong Kong Science & Technology Park - Technical Support Website"></a>
+ <!-- +++++++++++++++++++ works01BOX END +++++++++++++++++++ -->
+</div>
 
-	</head>
-	<body>
-	<div id="fh5co-page">
-		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+<div class="workbox">
+<a href="portfolio/web/02/01.jpg" rel="lightbox[roadtrip]" title="Port of Savannah - Chinese New Year E-card"><img src="portfolio/web/02/01_c.jpg" name="Web2" id="Web2" onmouseover="MM_swapImage('Web2','','portfolio/web/02/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/02/02.jpg" rel="lightbox[roadtrip]" title="Port of Savannah - Chinese New Year E-card"></a>
+<a href="portfolio/web/02/03.jpg" rel="lightbox[roadtrip]" title="Port of Savannah - Chinese New Year E-card"></a>
+<a href="portfolio/web/02/04.jpg" rel="lightbox[roadtrip]" title="Port of Savannah - Chinese New Year E-card"></a>
+<!-- +++++++++++++++++++ works02BOX END +++++++++++++++++++ -->
+</div>
 
-			<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="SASC.oncept"></a></h1>
-			<nav id="fh5co-main-menu" role="navigation">
-				<ul>
-					<li class="fh5co-active"><a href="index.html">Works</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+<div class="workbox">
+<a href="portfolio/web/03/01.jpg" rel="lightbox[roadtrip]" title="Fingerprint - Company Website"><img src="portfolio/web/03/01_c.jpg" name="Web3" id="Web3" onmouseover="MM_swapImage('Web3','','portfolio/web/03/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/03/02.jpg" rel="lightbox[roadtrip]" title="Fingerprint - Company Website"></a>
+<!-- +++++++++++++++++++ works03BOX END +++++++++++++++++++ -->
+</div>
 
-			<div class="fh5co-footer">
-            <ul>
-					<li><a href="https://www.linkedin.com/in/shirley-au-0413b351/" target="_blank"><i class="icon-linkedin"></i></a></li>
-					<li><a href="mailto:shirau@gmail.com"><i class="icon-envelope"></i></a></li>
-				</ul>
-			</div>
+<div class="workbox2">
+<a href="portfolio/web/04/01.jpg" rel="lightbox[roadtrip]" title="Jakin - Company Website"><img src="portfolio/web/04/01_c.jpg" name="Web4" id="Web4" onmouseover="MM_swapImage('Web4','','portfolio/web/04/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/04/02.jpg" rel="lightbox[roadtrip]" title="Jakin - Company Website"></a>
+<!-- +++++++++++++++++++ works04BOX END +++++++++++++++++++ -->
+</div>
 
-		</aside>
+<div class="workbox">
+ <a href="portfolio/web/05/01.jpg" rel="lightbox[roadtrip]" title="Allways Always - Company Website"><img src="portfolio/web/05/01_c.jpg" name="Web5" id="Web5" onmouseover="MM_swapImage('Web5','','portfolio/web/05/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <a href="portfolio/web/05/02.jpg" rel="lightbox[roadtrip]" title="Allways Always - Company Website"></a>
+ <!-- +++++++++++++++++++ works05BOX END +++++++++++++++++++ -->
+</div>
 
-		<div id="fh5co-main">
+<div class="workbox">
+<a href="portfolio/web/06/01.jpg" rel="lightbox[roadtrip]" title="Sweet Dating - Online Dating Website"><img src="portfolio/web/06/01_c.jpg" name="Web6" id="Web6" onmouseover="MM_swapImage('Web6','','portfolio/web/06/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/06/02.jpg" rel="lightbox[roadtrip]" title="Sweet Dating - Online Dating Website"></a>
+<a href="portfolio/web/06/03.jpg" rel="lightbox[roadtrip]" title="Sweet Dating - Online Dating Website"></a>
 
-			<div class="fh5co-narrow-content">
-			  <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">SASC.oncept</h2>
-			  <div class="row animate-box" data-animate-effect="fadeInLeft">
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work10.html">
-							<img src="images/work11_00.jpg" alt="iClick Digital Media Buying System" class="img-responsive">
-							<h3 class="fh5co-work-title">iClick Digital Media Buying System</h3>
-							<p>UX, Web UI, Project Management</p>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work09.html">
-							<img src="images/work10_00.jpg" alt="Lovetravel Website &amp; App" class="img-responsive">
-							<h3 class="fh5co-work-title">FindDoc Health Check O2O Campaign</h3>
-							<p>UX, Responsive Web UI</p>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work09.html">
-							<img src="images/work09_00.jpg" alt="Lovetravel Website &amp; App" class="img-responsive">
-							<h3 class="fh5co-work-title">Lovetravel Website &amp; App</h3>
-							<p>UX, Web UI Revamp, App UI</p>
-						</a>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work08.html">
-							<img src="images/work08_00.jpg" alt="HK Express O2O Campaign" class="img-responsive">
-							<h3 class="fh5co-work-title">HK Express O2O Campaign</h3>
-							<p>Brand Strategy, App UI</p>
-						</a>
-					</div>
-					<div class="clearfix visible-md-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work07.html">
-							<img src="images/work07_00.jpg" alt="Boom Clubbing App" class="img-responsive">
-							<h3 class="fh5co-work-title">Boom Clubbing App</h3>
-							<p>Brand Strategy, App UI</p>
-						</a>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work06.html">
-							<img src="images/work06_00.jpg" alt="Puriclub Camera App" class="img-responsive">
-							<h3 class="fh5co-work-title">Puriclub Camera App</h3>
-							<p>UX, App UI, Illustation</p>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work05.html">
-							<img src="images/work05_00.jpg" alt="Cocomojo Web Revamp" class="img-responsive">
-							<h3 class="fh5co-work-title">Cocomojo Web Revamp</h3>
-							<p>Branding, Web UI</p>
-						</a>
-					</div>
-					<div class="clearfix visible-md-block visible-sm-block"></div>
+<!-- +++++++++++++++++++ works06BOX END +++++++++++++++++++ -->
+</div>
 
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work04.html">
-							<img src="images/work04_00.jpg" alt="Bank of China Web Revamp" class="img-responsive">
-							<h3 class="fh5co-work-title">Bank of China Web Revamp</h3>
-							<p>Branding, Web UI</p>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work03.html">
-							<img src="images/work03_00.jpg" alt="Ocean Park Short Animation" class="img-responsive">
-							<h3 class="fh5co-work-title">Ocean Park Website &amp;  Animation</h3>
-							<p>Web UI, Flash Animation</p>
-						</a>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work02.html">
-							<img src="images/work02_00.jpg" alt="Ramen Restaurant O2O Campaign" class="img-responsive">
-							<h3 class="fh5co-work-title">Ramen Restaurant O2O Campaign</h3>
-							<p>Brand Strategy, UX, UI</p>
-						</a>
-					</div>
-					<div class="clearfix visible-md-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a href="work01.html">
-							<img src="images/work01_00.jpg" alt="MSF Exhibition" class="img-responsive">
-							<h3 class="fh5co-work-title">MSF Exhibition</h3>
-							<p>Branding, Marketing Materials</p>
-						</a>
-					</div>
-					<div class="clearfix visible-md-block"></div>
-					
-				</div>
-			</div>
-		
-			<div class="fh5co-cards">
-				<div class="fh5co-narrow-content">
-					<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft" style="color: #585858;">A Little About Me</h2>
+<div class="workbox">
+<a href="portfolio/web/07/01.jpg" rel="lightbox[roadtrip]" title="Lotus Communication - Company Website"><img src="portfolio/web/07/01_c.jpg" name="Web7" id="Web7" onmouseover="MM_swapImage('Web7','','portfolio/web/07/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/07/02.jpg" rel="lightbox[roadtrip]" title="Lotus Communication - Company Website"></a>
+<a href="portfolio/web/07/03.jpg" rel="lightbox[roadtrip]" title="Lotus Communication - Company Website"></a>
+<!-- +++++++++++++++++++ works07BOX END +++++++++++++++++++ -->
+</div>
 
-					<div class="fh5co-flex-wrap">
-						<div class="fh5co-card animate-box" data-animate-effect="fadeInLeft">
-							<h5>UX & UI Designer</h5>
-							<p>A seasoned digital product designer with 9 years of experience designing products across different channels, digital and print products. Proficient in user-centered design processes and product management. Applying UX strategies to solve business problems...</p>
-							<p><a href="about.html" class="btn btn-md btn-primary">Learn More</a></p>
-						</div>
-					</div>	
-					
-				</div>
-			</div>
+<div class="workbox2">
+<a href="portfolio/web/08/01.jpg" rel="lightbox[roadtrip]" title="Joy Like Bid - Online Bidding Website"><img src="portfolio/web/08/01_c.jpg" name="Web8" id="Web8" onmouseover="MM_swapImage('Web8','','portfolio/web/08/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/08/02.jpg" rel="lightbox[roadtrip]" title="Joy Like Bid - Online Bidding Website"></a>
+<!-- +++++++++++++++++++ works08BOX END +++++++++++++++++++ -->
+</div>
 
-			<div class="fh5co-narrow-content fh5co-border-bottom">
-				<div class="row">
-					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<h1 class="fh5co-heading-colored">Let's work together</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<p class="fh5co-lead">Got an interesting project and would like to work on it with me?</p>
-						<p><a href="mailto:shirau@gmail.com" class="btn btn-primary btn-outline">Get in touch</a></p>
-					</div>
-					<div class="col-md-7 col-md-push-1">
-						<div class="row">
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-								<p>UX &amp; UI design<br>
-								  Web interfaces, Mobile apps<br>
-								  Motion design for communication<br>
-								  Usability testing<br>
-								</p>
-							</div>
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							  <p>Product management<br>
-							  Brand strategy<br>
-								  Corporate identity<br>
-								  Marketing materials<br>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="fh5co-narrow-content">
-				<div class="row" style="font-size: 14px; text-align: center;">
-					This is Shirley Au 's online portfolio of multimedia design since 2007. © 2017 SASC.ONCEPT (v5). All rights reserved.
-				</div>
-		  </div>
+<div class="workbox">
+<a href="portfolio/web/09/01.jpg" rel="lightbox[roadtrip]" title="Plate-Forme - Travel Website"><img src="portfolio/web/09/01_c.jpg" name="Web9" id="Web9" onmouseover="MM_swapImage('Web9','','portfolio/web/09/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<!-- +++++++++++++++++++ works09BOX END +++++++++++++++++++ -->
+</div>
 
-		</div>
-	</div>
+<div class="workbox" style="position:relative;">
+<a href="portfolio/web/10/01.jpg" rel="lightbox[roadtrip]" title="Property Finder - Company Website"><img src="portfolio/web/10/01_c.jpg" name="Web10" id="Web10" onmouseover="MM_swapImage('Web10','','portfolio/web/10/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<!-- +++++++++++++++++++ works10BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox" style="position:relative;">
+  <a href="portfolio/web/13/01.jpg" rel="lightbox[roadtrip]" title="Forever Designs - Company Website"><img src="portfolio/web/13/01_c.jpg" name="Web13" id="Web13" onmouseover="MM_swapImage('Web13','','portfolio/web/13/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" />
+</div>
+<!-- +++++++++++++++++++ works13BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2" style="position:relative;">
+  <a href="portfolio/web/16/01.jpg" rel="lightbox[roadtrip]" title="Ocean Park - Company Website"><img src="portfolio/web/16/01_c.jpg" name="Web16" id="Web16" onmouseover="MM_swapImage('Web16','','portfolio/web/16/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" />
+</div>
+<!-- +++++++++++++++++++ works16BOX END +++++++++++++++++++ -->
+</div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
+<div class="workbox" style="position:relative;">
+<a href="portfolio/web/17/01.jpg" rel="lightbox[roadtrip]" title="Bank of China - Bank Website Revamp"><img src="portfolio/web/17/01_c.jpg" name="Web17" id="Web17" onmouseover="MM_swapImage('Web17','','portfolio/web/17/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/17/02.jpg" rel="lightbox[roadtrip]" title="Bank of China - Bank Website Revamp"></a>
+<div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" />
+</div>
+<!-- +++++++++++++++++++ works17BOX END +++++++++++++++++++ -->
+</div>
 
-	</body>
+<div class="workbox" style="position:relative;">
+<a href="portfolio/web/18/01.jpg" rel="lightbox[roadtrip]" title="Wee Travel - Website Revamp"><img src="portfolio/web/18/01_c.jpg" name="Web18" id="Web18" onmouseover="MM_swapImage('Web18','','portfolio/web/18/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/web/18/02.jpg" rel="lightbox[roadtrip]" title="Wee Travel - Website Revamp"></a>
+<div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" />
+</div>
+<!-- +++++++++++++++++++ works18BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works19BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works19BOX END +++++++++++++++++++ -->
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a name="apps"></a>
+</p>
+<h1>Apps</h1>
+<div class="workbox">
+ <a href="portfolio/apps/01/01.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"><img src="portfolio/apps/01/01_c.jpg" name="Apps1" id="Apps1" onmouseover="MM_swapImage('Apps1','','portfolio/apps/01/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/01/02.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"></a>
+<a href="portfolio/apps/01/03.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"></a>
+<a href="portfolio/apps/01/04.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"></a>
+<a href="portfolio/apps/01/05.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"></a>
+ <!-- +++++++++++++++++++ works01BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/02/01.jpg" rel="lightbox[roadtrip]" title="Photo Sharing Platform"><img src="portfolio/apps/02/01_c.jpg" name="Apps2" id="Apps2" onmouseover="MM_swapImage('Apps2','','portfolio/apps/02/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+ <!-- +++++++++++++++++++ works02BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/03/01.jpg" rel="lightbox[roadtrip]" title="E-newspaper Kiosk App"><img src="portfolio/apps/03/01_c.jpg" name="Apps3" id="Apps3" onmouseover="MM_swapImage('Apps3','','portfolio/apps/03/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+ <!-- +++++++++++++++++++ works03BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox2">
+ <a href="portfolio/apps/04/01.jpg" rel="lightbox[roadtrip]" title="Wedding Photobooth"><img src="portfolio/apps/04/01_c.jpg" name="Apps4" id="Apps4" onmouseover="MM_swapImage('Apps4','','portfolio/apps/04/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+ <!-- +++++++++++++++++++ works04BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/05/01.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smart Phone"><img src="portfolio/apps/05/01_c.jpg" name="Apps5" id="Apps5" onmouseover="MM_swapImage('Apps5','','portfolio/apps/05/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/05/02.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smart Phone"></a>
+<a href="portfolio/apps/05/03.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smart Phone"></a>
+<a href="portfolio/apps/05/04.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smart Phone"></a>
+<a href="portfolio/apps/05/05.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smart Phone"></a>
+<a href="portfolio/apps/05/06.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smarte Phone"></a>
+<a href="portfolio/apps/05/07.jpg" rel="lightbox[roadtrip]" title="Big 2 Card Game App on Smarte Phone"></a>
+ <!-- +++++++++++++++++++ works05BOX END +++++++++++++++++++ -->
+</div>
+
+
+<div class="workbox">
+ <a href="portfolio/apps/06/01.jpg" rel="lightbox[roadtrip]" title="Joint Publishing Info Guide"><img src="portfolio/apps/06/01_c.jpg" name="Apps6" id="Apps6" onmouseover="MM_swapImage('Apps6','','portfolio/apps/06/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/06/02.jpg" rel="lightbox[roadtrip]" title="Joint Publishing Info Guide"></a>
+<a href="portfolio/apps/06/03.jpg" rel="lightbox[roadtrip]" title="Joint Publishing Info Guide"></a>
+<a href="portfolio/apps/06/04.jpg" rel="lightbox[roadtrip]" title="Joint Publishing Info Guide"></a>
+<a href="portfolio/apps/06/05.jpg" rel="lightbox[roadtrip]" title="Joint Publishing Info Guide"></a>
+<a href="portfolio/apps/06/06.jpg" rel="lightbox[roadtrip]" title="Joint Publishing Info Guide"></a>
+ <!-- +++++++++++++++++++ works06BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/07/01.jpg" rel="lightbox[roadtrip]" title="Hong Kong Flower Show 2013 Photobooth"><img src="portfolio/apps/07/01_c.jpg" name="Apps7" id="Apps7" onmouseover="MM_swapImage('Apps7','','portfolio/apps/07/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/07/02.jpg" rel="lightbox[roadtrip]" title="Hong Kong Flower Show 2013 Photobooth"></a>
+<a href="portfolio/apps/07/03.jpg" rel="lightbox[roadtrip]" title="Hong Kong Flower Show 2013 Photobooth"></a>
+<a href="portfolio/apps/07/04.jpg" rel="lightbox[roadtrip]" title="Hong Kong Flower Show 2013 Photobooth"></a>
+<a href="portfolio/apps/07/05.jpg" rel="lightbox[roadtrip]" title="Hong Kong Flower Show 2013 Photobooths"></a>
+ <!-- +++++++++++++++++++ works07BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox2">
+ <a href="portfolio/apps/08/01.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Vending System"><img src="portfolio/apps/08/01_c.jpg" name="Apps8" id="Apps8" onmouseover="MM_swapImage('Apps8','','portfolio/apps/08/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/08/02.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Vending System"></a>
+<a href="portfolio/apps/08/03.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Vending System"></a>
+ <!-- +++++++++++++++++++ works08BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/09/01.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"><img src="portfolio/apps/09/01_c.jpg" name="Apps9" id="Apps9" onmouseover="MM_swapImage('Apps9','','portfolio/apps/09/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/09/02.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"></a>
+<a href="portfolio/apps/09/03.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide - Smart Phone App"></a>
+ <!-- +++++++++++++++++++ works09BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/10/01.jpg" rel="lightbox[roadtrip]" title="Card Match Game - Kiosk App"><img src="portfolio/apps/10/01_c.jpg" name="Apps10" id="Apps10" onmouseover="MM_swapImage('Apps10','','portfolio/apps/10/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/10/02.jpg" rel="lightbox[roadtrip]" title="Card Match Game - Kiosk App"></a>
+<a href="portfolio/apps/10/03.jpg" rel="lightbox[roadtrip]" title="Card Match Game - Kiosk App"></a>
+<a href="portfolio/apps/10/04.jpg" rel="lightbox[roadtrip]" title="Card Match Game - Kiosk App"></a>
+ <!-- +++++++++++++++++++ works10BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+ <a href="portfolio/apps/11/01.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide"><img src="portfolio/apps/11/01_c.jpg" name="Apps11" id="Apps11" onmouseover="MM_swapImage('Apps11','','portfolio/apps/11/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/11/02.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide"></a>
+<a href="portfolio/apps/11/03.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide"></a>
+<a href="portfolio/apps/11/04.jpg" rel="lightbox[roadtrip]" title="Rasupermen Restaurant Info Guide"></a>
+ <!-- +++++++++++++++++++ works11BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox2">
+ <a href="portfolio/apps/11/01.jpg" rel="lightbox[roadtrip]" title="Sands Macau Campaign - Game App"><img src="portfolio/apps/12/01_c.jpg" name="Apps12" id="Apps12" onmouseover="MM_swapImage('Apps12','','portfolio/apps/12/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/12/02.jpg" rel="lightbox[roadtrip]" title="Sands Macau Campaign - Game App"></a>
+<a href="portfolio/apps/12/03.jpg" rel="lightbox[roadtrip]" title="Sands Macau Campaign - Game App"></a>
+ <!-- +++++++++++++++++++ works12BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox" style="position:relative;">
+ <a href="portfolio/apps/13/01.jpg" rel="lightbox[roadtrip]" title="Sands Macau Campaign - Lucky Wheel"><img src="portfolio/apps/13/01_c.jpg" name="Apps13" id="Apps13" onmouseover="MM_swapImage('Apps13','','portfolio/apps/13/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/13/02.jpg" rel="lightbox[roadtrip]" title="Sands Macau Campaign - Lucky Wheel"></a>
+<a href="portfolio/apps/13/03.jpg" rel="lightbox[roadtrip]" title="Sands Macau Campaign - Lucky Wheel"></a>
+ <!-- +++++++++++++++++++ works13BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox" style="position:relative;">
+ <a href="portfolio/apps/14/01.jpg" rel="lightbox[roadtrip]" title="Hong Kong Park - Bird Match Game"><img src="portfolio/apps/14/01_c.jpg" name="Apps14" id="Apps14" onmouseover="MM_swapImage('Apps14','','portfolio/apps/14/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/14/02.jpg" rel="lightbox[roadtrip]" title="Hong Kong Park - Bird Match Game"></a>
+<a href="portfolio/apps/14/03.jpg" rel="lightbox[roadtrip]" title="Hong Kong Park - Bird Match Game"></a>
+<a href="portfolio/apps/14/04.jpg" rel="lightbox[roadtrip]" title="Hong Kong Park - Bird Match Game"></a>
+ <!-- +++++++++++++++++++ works14BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox" style="position:relative;">
+ <a href="portfolio/apps/15/01.jpg" rel="lightbox[roadtrip]" title="EDC - Environmental Education Game"><img src="portfolio/apps/15/01_c.jpg" name="Apps15" id="Apps15" onmouseover="MM_swapImage('Apps15','','portfolio/apps/15/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/15/02.jpg" rel="lightbox[roadtrip]" title="EDC - Environmental Education Game"></a>
+<a href="portfolio/apps/15/03.jpg" rel="lightbox[roadtrip]" title="EDC - Environmental Education Game"></a>
+<a href="portfolio/apps/15/04.jpg" rel="lightbox[roadtrip]" title="EDC - Environmental Education Game"></a>
+<a href="portfolio/apps/15/05.jpg" rel="lightbox[roadtrip]" title="EDC - Environmental Education Game"></a>
+<div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" /></div>
+ <!-- +++++++++++++++++++ works15BOX END +++++++++++++++++++ -->
+</div>
+
+
+
+<div class="workbox2" style="position:relative;">
+ <a href="portfolio/apps/17/01.jpg" rel="lightbox[roadtrip]" title="Heng Sang Bank - Kiosk Game"><img src="portfolio/apps/17/01_c.jpg" name="Apps17" id="Apps17" onmouseover="MM_swapImage('Apps17','','portfolio/apps/17/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/17/02.jpg" rel="lightbox[roadtrip]" title="Heng Sang Bank - Kiosk Game"></a>
+<a href="portfolio/apps/17/03.jpg" rel="lightbox[roadtrip]" title="Heng Sang Bank - Kiosk Game"></a>
+<a href="portfolio/apps/17/04.jpg" rel="lightbox[roadtrip]" title="Heng Sang Bank - Kiosk Game"></a>
+<a href="portfolio/apps/17/05.jpg" rel="lightbox[roadtrip]" title="Heng Sang Bank - Kiosk Game"></a>
+<div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" /></div>
+ <!-- +++++++++++++++++++ works17BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox" style="position:relative;">
+ <a href="portfolio/apps/18/01.jpg" rel="lightbox[roadtrip]" title="Ocean Park - Kiosk Animation"><img src="portfolio/apps/18/01_c.jpg" name="Apps18" id="Apps18" onmouseover="MM_swapImage('Apps18','','portfolio/apps/18/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/apps/18/02.jpg" rel="lightbox[roadtrip]" title="Ocean Park - Kiosk Animation"></a>
+<a href="portfolio/apps/18/03.jpg" rel="lightbox[roadtrip]" title="Ocean Park - Kiosk Animation"></a>
+<div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" /></div>
+ <!-- +++++++++++++++++++ works18BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works19BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works20BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox2">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works20BOX END +++++++++++++++++++ -->
+</div>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p> <a name="prints" id="prints"></a> </p>
+<h1>Prints</h1>
+<div class="workbox"> <a href="portfolio/prints/01/01.jpg" rel="lightbox[roadtrip]" title="MSF - Newsletter Booklet"><img src="portfolio/prints/01/01_c.jpg" name="Image1" id="Image1" onmouseover="MM_swapImage('Image1','','portfolio/prints/01/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/01/02.jpg" rel="lightbox[roadtrip]" title="MSF - Newsletter Booklet"></a>
+  <!-- +++++++++++++++++++ works01BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/02/01.jpg" rel="lightbox[roadtrip]" title="HKBU - School of Business Newspaper Ad."><img src="portfolio/prints/02/01_c.jpg" name="Image2" id="Image2" onmouseover="MM_swapImage('Image2','','portfolio/prints/02/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/02/02.jpg" rel="lightbox[roadtrip]" title="HKBU - School of Business Newspaper Ad."></a> <a href="portfolio/prints/02/03.jpg" rel="lightbox[roadtrip]" title="HKBU - School of Business Newspaper Ad."></a>
+  <!-- +++++++++++++++++++ works02BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/03/01.jpg" rel="lightbox[roadtrip]" title="FEHD - Newsletter"><img src="portfolio/prints/03/01_c.jpg" name="Image3" id="Image3" onmouseover="MM_swapImage('Image3','','portfolio/prints/03/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/03/02.jpg" rel="lightbox[roadtrip]" title="CHong Kong Food and Environmental Hygiene Department - Newsletter"></a>
+  <!-- +++++++++++++++++++ works03BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2"> <a href="portfolio/prints/04/01.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"><img src="portfolio/prints/04/01_c.jpg" name="Image4" id="Image4" onmouseover="MM_swapImage('Image4','','portfolio/prints/04/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/04/02.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"></a> <a href="portfolio/prints/04/03.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"></a> <a href="portfolio/prints/04/04.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"></a>
+  <!-- +++++++++++++++++++ works04BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/05/01.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"><img src="portfolio/prints/05/01_c.jpg" name="Image5" id="Image5" onmouseover="MM_swapImage('Image5','','portfolio/prints/05/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/05/02.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"></a> <a href="portfolio/prints/05/03.jpg" rel="lightbox[roadtrip]" title="CHKBU - MAP Report"></a> <a href="portfolio/prints/05/04.jpg" rel="lightbox[roadtrip]" title="HKBU - MAP Report"></a> <a href="portfolio/prints/05/05.jpg" rel="lightbox[roadtrip]" title="Click on the right side of the image to move forward."></a>
+  <!-- +++++++++++++++++++ works05BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/06/01.jpg" rel="lightbox[roadtrip]" title="Jebsen - Wine Price Book"><img src="portfolio/prints/06/01_c.jpg" name="Image6" id="Image6" onmouseover="MM_swapImage('Image6','','portfolio/prints/06/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/06/02.jpg" rel="lightbox[roadtrip]" title="Jebsen - Wine Price Book"></a>
+  <!-- +++++++++++++++++++ works06BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/07/01.jpg" rel="lightbox[roadtrip]" title="MSF - Report"><img src="portfolio/prints/07/01_c.jpg" name="Image7" id="Image7" onmouseover="MM_swapImage('Image7','','portfolio/prints/07/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/07/02.jpg" rel="lightbox[roadtrip]" title="MSF - Report"></a>
+  <!-- +++++++++++++++++++ works07BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2"> <a href="portfolio/prints/08/01.jpg" rel="lightbox[roadtrip]" title="HKBU - Student Newsletter"><img src="portfolio/prints/08/01_c.jpg" name="Image24" id="Image24" onmouseover="MM_swapImage('Image24','','portfolio/prints/08/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/08/02.jpg" rel="lightbox[roadtrip]" title="HKBU - Student Newsletter"></a> <a href="portfolio/prints/08/03.jpg" rel="lightbox[roadtrip]" title="HKBU - Student Newsletter"></a> <a href="portfolio/prints/08/04.jpg" rel="lightbox[roadtrip]" title="HKBU - Student Newsletter"></a>
+  <!-- +++++++++++++++++++ works08BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/09/01.jpg" rel="lightbox[roadtrip]" title="MSF - Truck Event Promotion set - Newspaper Ad"><img src="portfolio/prints/09/01_c.jpg" name="Image9" id="Image9" onmouseover="MM_swapImage('Image9','','portfolio/prints/09/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/09/02.jpg" rel="lightbox[roadtrip]" title="MSF - Truck Event Promotion set - Newspaper Ad"></a> <a href="portfolio/prints/09/03.jpg" rel="lightbox[roadtrip]" title="MSF - Truck Event Promotion set - Banner"></a> <a href="portfolio/prints/09/04.jpg" rel="lightbox[roadtrip]" title="MSF - Truck Event Promotion set - Postcard"></a> <a href="portfolio/prints/09/05.jpg" rel="lightbox[roadtrip]" title="MSF - Truck Event Promotion set - Passport"></a> <a href="portfolio/prints/09/06.jpg" rel="lightbox[roadtrip]" title="MSF - Truck Event Promotion set - Doctor Stand for audience to take photos"></a>
+  <!-- +++++++++++++++++++ works09BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/10/01.jpg" rel="lightbox[roadtrip]" title="Red Cross - New Year Mailer Set - Rea Pocket (Envelope)"><img src="portfolio/prints/10/01_c.jpg" name="Image10" id="Image10" onmouseover="MM_swapImage('Image10','','portfolio/prints/10/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/10/02.jpg" rel="lightbox[roadtrip]" title="Red Cross - New Year Mailer Set - Leaflet"></a> <a href="portfolio/prints/10/03.jpg" rel="lightbox[roadtrip]" title="Red Cross - New Year Mailer Set - Leaflet"></a>
+  <!-- +++++++++++++++++++ works10BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/11/01.jpg" rel="lightbox[roadtrip]" title="HKBU - School of Business Poster"><img src="portfolio/prints/11/01_c.jpg" name="Image11" id="Image11" onmouseover="MM_swapImage('Image11','','portfolio/prints/11/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <!-- +++++++++++++++++++ works11BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2"> <a href="portfolio/prints/12/01.jpg" rel="lightbox[roadtrip]" title="Sushi One - Poster"><img src="portfolio/prints/12/01_c.jpg" name="Image12" id="Image12" onmouseover="MM_swapImage('Image12','','portfolio/prints/12/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <!-- +++++++++++++++++++ works12BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/13/01.jpg" rel="lightbox[roadtrip]" title="HKBU - Russia x China Seminar Poster"><img src="portfolio/prints/13/01_c.jpg" name="Image13" id="Image13" onmouseover="MM_swapImage('Image13','','portfolio/prints/13/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <!-- +++++++++++++++++++ works13BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/14/01.jpg" rel="lightbox[roadtrip]" title="Hong Kong Organic Research Centre - Banner"><img src="portfolio/prints/14/01_c.jpg" name="Image14" id="Image14" onmouseover="MM_swapImage('Image14','','portfolio/prints/10/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <!-- +++++++++++++++++++ works14BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/15/01.jpg" rel="lightbox[roadtrip]" title="Chung Hwa Book Ltd - Wine Banner"><img src="portfolio/prints/15/01_c.jpg" name="Image15" id="Image15" onmouseover="MM_swapImage('Image15','','portfolio/prints/15/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <!-- +++++++++++++++++++ works15BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2"> <a href="portfolio/prints/16/01.jpg" rel="lightbox[roadtrip]" title="Bank of China - Insurance Folder"><img src="portfolio/prints/16/01_c.jpg" name="Image16" id="Image16" onmouseover="MM_swapImage('Image16','','portfolio/prints/16/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/16/02.jpg" rel="lightbox[roadtrip]" title="Click on the right side of the image to move forward."></a>
+  <!-- +++++++++++++++++++ works16BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/17/01.jpg" rel="lightbox[roadtrip]" title="Bank of Communication - MPF Promotional Leaflet"><img src="portfolio/prints/17/01_c.jpg" name="Image17" id="Image17" onmouseover="MM_swapImage('Image17','','portfolio/prints/17/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/17/02.jpg" rel="lightbox[roadtrip]" title="Bank of Communication - MPF Promotional Leaflet"></a>
+  <!-- +++++++++++++++++++ works17BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/18/01.jpg" rel="lightbox[roadtrip]" title="Fu Hong Society - Financial Report - Cover"><img src="portfolio/prints/18/01_c.jpg" name="Image18" id="Image18" onmouseover="MM_swapImage('Image18','','portfolio/prints/18/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <!-- +++++++++++++++++++ works18BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/19/01.jpg" rel="lightbox[roadtrip]" title="Zenith - Club house Newsletter"><img src="portfolio/prints/19/01_c.jpg" name="Image19" id="Image19" onmouseover="MM_swapImage('Image19','','portfolio/prints/19/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/19/02.jpg" rel="lightbox[roadtrip]" title="Zenith - Club house Newsletter"></a> <a href="portfolio/prints/19/03.jpg" rel="lightbox[roadtrip]" title="Zenith - Club house Newsletter"></a>
+  <!-- +++++++++++++++++++ works19BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2"> <a href="portfolio/prints/20/01.jpg" rel="lightbox[roadtrip]" title="HKBU - School of Businness - Promotional Book"><img src="portfolio/prints/20/01_c.jpg" name="Image20" id="Image20" onmouseover="MM_swapImage('Image20','','portfolio/prints/20/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/20/02.jpg" rel="lightbox[roadtrip]" title="HKBU - School of Businness - Promotional Book"></a>
+  <!-- +++++++++++++++++++ works20BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox"> <a href="portfolio/prints/21/01.jpg" rel="lightbox[roadtrip]" title="Bank of Communication - MPF Promotional leaflet"><img src="portfolio/prints/21/01_c.jpg" name="Image21" id="Image21" onmouseover="MM_swapImage('Image21','','portfolio/prints/21/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/21/02.jpg" rel="lightbox[roadtrip]" title="Bank of Communication - MPF Promotional leaflet"></a>
+  <!-- +++++++++++++++++++ works21BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox" style="position:relative;"> <a href="portfolio/prints/22/01.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"><img src="portfolio/prints/22/01_c.jpg" name="Image22" id="Image22" onmouseover="MM_swapImage('Image22','','portfolio/prints/22/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a> <a href="portfolio/prints/22/02.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"></a> <a href="portfolio/prints/22/03.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"></a> <a href="portfolio/prints/22/04.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"></a> <a href="portfolio/prints/22/05.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"></a> <a href="portfolio/prints/22/06.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"></a> <a href="portfolio/prints/22/07.jpg" rel="lightbox[roadtrip]" title="Property Finder - Double-Monthly Magazine"></a>
+  <!-- +++++++++++++++++++ works22BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox" style="position:relative;"> <a href="portfolio/prints/23/01.jpg" rel="lightbox[roadtrip]" title="Season Club House - Logo"><img src="portfolio/prints/23/01_c.jpg" name="Image23" id="Image23" onmouseover="MM_swapImage('Image23','','portfolio/prints/23/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+  <div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" /> </div>
+  <a href="portfolio/prints/23/02.jpg" rel="lightbox[roadtrip]" title="Season Club House - Logo"></a>
+  <!-- +++++++++++++++++++ works22BOX END +++++++++++++++++++ -->
+</div>
+<div class="workbox2"> <img src="portfolio/comingsoon.jpg" />
+  <!-- +++++++++++++++++++ works24BOX END +++++++++++++++++++ -->
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p></p>
+<p>&nbsp;</p>
+<p><a name="self"></a>
+</p>
+<h1>Self-Project</h1>
+<div class="workbox">
+<a href="portfolio/self/01/index.html" title="Self Project - Animation & Character Design" target="_blank"><img src="portfolio/self/01/01_c.jpg" name="Self1" id="Self1" onmouseover="MM_swapImage('Self1','','portfolio/self/01/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+</div>
+<!-- +++++++++++++++++++ works01BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox" style="position:relative;">
+<a href="portfolio/self/02/01.jpg" rel="lightbox[roadtrip]" title="Camera App - Illustration - Stick set"><img src="portfolio/self/02/01_c.jpg" name="Self2" id="Self2" onmouseover="MM_swapImage('Self2','','portfolio/self/02/01_c_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+<a href="portfolio/self/02/02.jpg" rel="lightbox[roadtrip]" title="Camera App - Illustration - Stick set"></a>
+<a href="portfolio/self/02/03.jpg" rel="lightbox[roadtrip]" title="Camera App - Illustration - Stick set"></a>
+<a href="portfolio/self/02/04.jpg" rel="lightbox[roadtrip]" title="Camera App - Illustration - Stick set"></a>
+<div style="position:absolute;top:-5px;right:-5px;"><img src="portfolio/new.png" width="40" height="40" alt="new" />
+</div>
+<!-- +++++++++++++++++++ works02BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works03BOX END +++++++++++++++++++ -->
+</div>
+
+<div class="workbox2">
+<img src="portfolio/comingsoon.jpg" />
+<!-- +++++++++++++++++++ works04BOX END +++++++++++++++++++ -->
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="footer">
+<div class="pagetop"><a href="#top"><img src="images/gototop.png" alt="" width="140" height="120" id="Image8" /></a></div>
+<div class="footerinner clearfix">
+<p>This is SASC's online portfolio of multimedia design since 2007. © 2013 SASC.ONCEPT (v4). All rights reserved.</p>
+</div>
+</div>
+</body>
 </html>
-
